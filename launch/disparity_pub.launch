@@ -1,0 +1,11 @@
+<launch>
+	
+	<arg name="output" default="screen"/>
+
+	<node name="t265_disparity" pkg="t265_diaprity_pub" type="disparity_node.py" output="$(arg output)">
+		
+		<!-- Put params her if any -->
+
+	</node>
+
+</launch>
